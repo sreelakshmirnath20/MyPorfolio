@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5601e40c70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./lakXXmi1.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Python FullStack Developer</p>
+                <h1>Hi, I'am <span>Sreelakshmi R Nath</span></h1>
+                </div>
+            <a href="" class="btn btn2">Donwload CV</a>
+        </div>
+            </div>
+            
+        </div>
+    </div>
+<!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abtCol-1">
+                    <img src="./abtMe.jpg" alt="">
+                </div>
+                <div class="abtCol-2">
+                    <h1 class="subtitile">About Me</h1>
+                    <p>Ambitious and technically adept Python Full Stack Developer
+                        with a strong foundation in React and Django, eager to apply my
+                        skills in real-world applications. Through hands-on projects and
+                        internships, I have built and deployed web applications,
+                        enhancing both the frontend user interface and backend
+                        functionality. Passionate about problem-solving and efficiency.</p>
+
+                    <div class="tabTitles">
+                        <p class="tabLinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tabLinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tabLinks" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tabContents active-tab" id="skills">
+                        <ul>
+                            <li><span>Html&CSS</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>Java</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tabContents" id="experience">
+                        <ul>
+                            <li><span>Python Django FullStack Developer</span><br>Luminar Technolab</li>
+                            <li><span>MERN</span><br>Futura Labs</li>
+                            
+
+                        </ul>
+                    </div>
+                    <div class="tabContents" id="education">
+                        <ul>
+                            <li><span>BTech in ComputerScience and Engineering</span><br>CUSAT</li>
+                            <li><span>Science</span><br>Basel Evangelical Mission GHSS</li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- <section id="cards">
+        <div class="grid-container">
+            <div class="grid-item" id="head">
+                Skills
+                <ul class="lists">
+                    <br>
+                    <li>HTML&CSS</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>MySql</li>
+
+
+                </ul>
+
+            </div>
+            <div class="grid-container">
+                <div class="grid-item" id="head">
+                    Experience
+                    <ul class="lists">
+                        <br>
+                        <li><span>Python Django FullStack Developer</span><br>Luminar Technolab</li>
+                            <li><span>MERN</span><br>Futura Labs</li>
+                            
+    
+    
+                    </ul>
+    
+                </div>
+            <div class="grid-item" id="head">
+                Education
+                <ul class="lists">
+                    <br>
+                    <li><span>BTech in ComputerScience and Engineering</span><br>CUSAT</li>
+                            <li><span>Science</span><br>BEMGHSS</li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </section> -->
+    <!-- skills -->
+     <div id="skills">
+        <div class="container">
+            <h1 class="subtitile">My Skills</h1>
+            <div class="skill-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h2>Front-End
+                        Development</h2>
+                    <p>Bootstrap</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i><i class="fa-brands fa-java"></i>
+                    <h2>Programming
+                        Languages</h2>
+                    <p>Python</p>
+                    <p>MySql</p>
+                    <p>java</p>
+                    
+                </div>
+
+            </div>
+        </div>
+     </div>
+<!-- Contact -->
+<div id="contact">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">ContactMe</h1>
+            <p><i class="fa-solid fa-phone"></i>9746200750</p>
+            <div class="social-icons">
+                <a href="sreelakshmirnathclt@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.instagram.com/__laksh_m_i_?igsh=MWhjbm0zdmo0aTVpcg=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="www.linkedin.com/in/sreelakshmi-r-nath"><i class="fa-brands fa-linkedin"></i></a>
+            
+    </div>
+</div>
+    
+</body>
+
+
+<script>
+
+var tablinks=document.getElementsByClassName("tabLinks");
+var tabcontents=document.getElementsByClassName("tabContents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+</html>
